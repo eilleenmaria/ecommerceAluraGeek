@@ -1,0 +1,101 @@
+.section-header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100px;
+}
+.headerPrincipal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    height: 100px;
+    gap:1%;
+    padding: 0;   
+    background-color:var( --color-header);
+}
+.container_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 115px;
+    padding: 32px, 0px;     
+}
+.busqueda_header{
+    display: flex;
+    flex-direction:row;
+    margin: 0;      
+    padding: 0;
+    width: 50%;
+    height: 40px;
+    gap: 5%;
+}
+.contain_logo{
+    width: 28%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;    
+}
+.contain_logo :nth-child(2){
+    width: 63px;
+    height: 18px;
+    margin-top: 5px;
+    
+}
+.contain_logo :nth-child(3){
+    width: 61px;
+    height: 18px;
+    margin-top: 5px;
+}
+.logo_alura{  
+    height: 29px;
+    padding-top: 5px;
+}
+.contain_logo-text{
+    padding-top: 10px;
+}
+.contain-barra{  
+    width:100% ;  
+    height: 35px;
+    display: flex;
+    flex-direction: row;   
+    border-radius: 10px;
+    background-color: var(--color-busqueda);   
+}
+.contain-barra_input{
+    width: 80%;
+    border: none;
+    outline: 0;
+    box-sizing: border-box;
+    height: 35px;
+    border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px; 
+    background-color: var(--color-busqueda);     
+}
+.contain-barra_button{
+    width: 20%;
+    outline: 0;
+    box-sizing: border-box;
+    border: none;
+    height: 35px;
+    border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+    background-color: var(--color-busqueda);
+    color: var(--color-btn);
+    font-weight: 400;
+    font-size: 70px;   
+}
+.contain-boton_header{
+    width: 13%;
+    height: 50%;    
+}
+.contain-boton_header input{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-header);
+    color: var(--color-btn-header);
+    border: 1px solid var(--color-btn) ;
+}

@@ -1,0 +1,149 @@
+.rodapie{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    height: 470px;
+    width: 100%;
+}
+.rodapie-informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 368px;
+    padding: 64px;
+    gap: 115px;
+    background: var(--color-footer);
+}
+.rodapie-informacion-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10%;
+    width: 96%;
+    height: 240px;    
+}
+.rodapie-informacion-contain_logo{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+}
+.rodapie-informacion-contain_logo :nth-child(2){
+    width: 63px;
+    height: 18px;
+    margin-top: 5px;
+}
+.rodapie-informacion-contain_logo :nth-child(3){
+    width: 61px;
+    height: 18px;
+    margin-top: 5px;
+}
+.rodapie-informacion-contain_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 20%;
+    height: 234px;   
+}
+.contain_links-a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--color-gray);
+}
+fieldset{width: 100%;}
+.rodapie-informacion-contain_contactForm{
+    display: flex;    
+    flex-direction: colum;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 40%;
+    height: 240px;    
+}
+.rodapie-informacion-contain_contactForm-legend{    
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    height: 19px;
+    color: var(--color-gray);
+}
+.rodapie-informacion-contain_contactForm-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;
+    height: 154px;
+    width: 100%;
+}
+.rodapie-informacion-contain_contactForm-inputName{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    height: 56px;
+    background: var(--color-header);
+    border-radius: 4px;
+}
+.contacForm-inputName-label{
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--color-gray-light);
+}
+.contacForm-inputName-input{
+    width: 100%;
+    border: none;
+}
+.rodapie-informacion-contain_contactForm-mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 8px;
+    width: 100%;
+    height: 82px;
+    background: var(--color-header);
+    border-radius: 4px;
+}
+.contactForm-mensaje-textArea{
+    width: 100%;
+    border: none;
+}
+.rodapie-informacion-contain_contactForm-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 144px;
+    height: 51px;
+    background: var(--color-btn);
+    margin-top: 10px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-header);
+}
+.rodapie-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px; text-align: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    background: var(--color-header);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-gray);
+}

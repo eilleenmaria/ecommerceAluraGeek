@@ -1,0 +1,26 @@
+:root{
+    --color-header: #FFFFFF;
+    --color-busqueda:  #F5F5F5;
+    --color-footer:#EAF2FD;
+    --color-btn: #2A7AE4;
+    --color-gray:#464646;
+    --color-gray-light: #A2A2A2;
+
+}
+*{
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+.contain-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+main{ width: 100%; background: var(--color-busqueda);}
+#destaque{
+    display:none;
+}
