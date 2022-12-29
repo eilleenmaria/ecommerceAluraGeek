@@ -1,0 +1,100 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .section-header{height: 4.43rem;}
+    .container_header{width: 100%; padding: 1em 2em;}
+    .logo_alura-txt{font-size: calc(2vw + 0.5rem);}
+    .busqueda_header{width: 70%; 
+    }    
+    .contain-boton_header{width: 7rem;height: 2.5rem;}
+    .contain-botonAdmin_header{width: 9rem;height: 2.5rem;}
+    .contain-botonAdmin_header :nth-child(1){font-size: .8rem;}
+    .promocional{height: 20rem;}
+    .promocional-text{width: 95%;height: 9.93rem;}
+    .login{width: 17.18rem;height: 11.8rem;}   
+    .productos-contain{justify-content: flex-start;column-gap: 3%;}
+    .productos-item{width: 22.5%; }
+    .productos-item_name{font-size: calc(1.4vw + 0.3rem);}
+       .productos-item_price, .productos-item_view{font-size:calc(1.5vw + 0.3rem);}
+    .todos-productos_encabezadoTitulo{font-size: calc(3.5vw + .3rem);}
+    .todos-productos_encabezado-button{
+        width: 9.375rem;
+        height: 2.5rem;
+        padding: 0;
+    }
+    .todos-producto_contain{
+        justify-content: flex-start;column-gap: 3%; }
+    .agregarProducto{width: 90%; height: 29.93rem;}
+    .agregarProducto_titulo{font-size: 1.3rem;}
+    .rodapie-informacion{padding: 1em; gap: 1em;}
+    .rodapie-informacion-contain{gap: 1em;height: 18.75rem;}
+    .rodapie-informacion-containColum{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        align-items: flex-start;
+        gap: 1em;
+        padding: 0;        
+    }
+    .rodapie-informacion-contain_logo{width: 90%; }
+    .imageHeader-1, .imageHeader-2{width: 98%;}
+    .logo_alura-rodapie{height: 60%;}
+    .rodapie-informacion-contain_links{width: 100%; padding: 0;}
+    .contain_links-a{font-size: 0.8em;}
+    .rodapie-informacion-contain_contactForm{width: 60%; }
+    .rodapie-informacion-contain_contactForm-button{
+        width: 8.31rem;
+        height: 2.5rem;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 493px){
+    .contain-barra{ display: none;}    
+    .contain-boton_header{width: 8.3rem;}
+   .view-buscar{display: flex; align-items: center; }
+   .busqueda_header{width: 30% !important;}
+   .container_header{padding: 0em 0.5em; } 
+   .promocional{height: 12rem;}
+   .promocional-text{width: 100%; height: 6.125rem;}   
+.promocional-text h1{font-size: 5vw; height: 1.625rem;}
+.promocional-text p{height: 1rem;}
+.promocional-button{width: 7.375rem; height: 2.5rem;}
+.login{width: 17.1rem; height: 11.8rem;}
+   .productos-item_name{font-size: calc(1.4vw + 0.3rem);}
+   .logo_alura-rodapie{ height: 50%;}
+} 
+
+@media only screen and (max-width: 360px){
+    .logo_alura{height: 70%;margin-top: .3rem;}
+    .productos-item{width: 47%;}
+    .productos-item_name{font-size: 3vw; }
+    .rodapie-informacion{align-items: flex-start; height: 31.3rem; }
+    .encabezado-button{font-size: .8rem; }
+    .contain-botonAdmin_header{width: 8.3rem;}
+    .todos-productos_encabezado{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        height: 5.125rem;
+    }
+    .rodapie-informacion-contain{        
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 16.25rem;       
+    }
+    .rodapie-informacion-contain_logo{width: 40%; height: 1.5rem;}
+    .logo_alura-rodapie{ height: 1rem;}
+    .rodapie-informacion-containColum{
+        width: 100%;
+        align-items: center;        
+        gap: 1rem;        
+    }
+    .rodapie-informacion-contain_links{
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        padding: 0;        
+    }
+    .rodapie-informacion-contain_contactForm{width: 100%;}
+}

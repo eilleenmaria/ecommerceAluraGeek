@@ -7,20 +7,13 @@
     --color-gray-light: #A2A2A2;
 
 }
-*{
-    font-family: "Raleway";
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none
-}
-.contain-principal{
+*{font-family: "Raleway"; box-sizing: border-box;}
+a{text-decoration: none;}
+.contain-principal{ 
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 main{ width: 100%; background: var(--color-busqueda);}
-#destaque{
-    display:none;
-}
+#admin{display: none;}

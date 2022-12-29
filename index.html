@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/producto.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/todoproducto.css">
+    <link rel="stylesheet" href="css/agregarProducto.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
 </head>
@@ -21,9 +24,9 @@
 
                 <div class="busqueda_header">
                     <div class="contain_logo">
-                        <img class="logo_alura" src="img/Vector.png" alt="logo alura">
-                            <img src="img/AluraGeek (1).png" alt="">
-                            <img src="img/AluraGeek.png" alt="">
+                        <div class="contain_logo-img"> <img class="logo_alura" src="img/Vector.png" alt="logo alura"></div>
+                        <div class="contain_logo-txt"><h2 class="logo_alura-txt"><strong>Alura</strong>Geek</h2></div>
+                            
                     </div>
                     <div class="contain-barra">
                         <input class="contain-barra_input" type="text" placeholder="¿Que deseas buscar?">
@@ -31,9 +34,14 @@
                         
                     </div>
                 </div>
-                <div class="contain-boton_header">
-                    <input type="button" value="Login">
-                </div>           
+                <div id="header-btn" class="contain-boton_header">
+                    <input type="button" value="Login" onclick="loguear()">
+                </div> 
+                <div id="admin" class="contain-botonAdmin_header">
+                    <input type="button" value="Menu Administrador" onclick="">
+                </div>
+                <div><button class=" view-buscar contain-barra_button"><img src="img/Icone.png" alt="buscar"></button></div>
+
             </div>                
         </div>       
     </header>
@@ -50,174 +58,8 @@
                 </div>       
             </section> 
             <section class="productos" >           
-                <div class="linea-productos">
-                    <div class="productos-encabezado">
-                        <h2>The Seven Deadly Sins</h2>
-                        <button class="encabezado-button">Ver todo <img src="./img/arrow_back_black_24dp 1.png" alt="flecha derecha"></button>
-                    </div>
-                    <div class="productos-contain">
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/ban.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>                    
-                    </div>                
-                </div>
-                <div class="linea-productos">
-                    <div class="productos-encabezado">
-                        <h2>The Seven Deadly Sins</h2>
-                        <button class="encabezado-button">Ver todo <img src="./img/arrow_back_black_24dp 1.png" alt="flecha derecha"></button>
-                    </div>
-                    <div class="productos-contain">
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>                    
-                    </div>                
-                </div>  
-                <div class="linea-productos">
-                    <div class="productos-encabezado">
-                        <h2>The Seven Deadly Sins</h2>
-                        <button class="encabezado-button">Ver todo <img src="./img/arrow_back_black_24dp 1.png" alt="flecha derecha"></button>
-                    </div>
-                    <div class="productos-contain">
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>
-                        <div class="productos-item">
-                            <div class="productos-item_img"><img src="./img/banpresto.jpg" alt="figura star wars"></div>
-                            <div>
-                                <h3>Producto XYZ</h3>
-                                <p>$60.000</p>
-                                <a href="">Ver producto</a>
-                            </div>
-                        </div>                    
-                    </div>                
-                </div>              
+                <div  id="linea" class="linea-productos">                    
+                </div>                
             </section>
         </div>
         <div id="home">
@@ -227,23 +69,62 @@
                 <input class="login-contraseña" placeholder="Escriba su contraseña" type="text">
                 <input class="login-button" type="button" value="Entrar">
             </form>
-        </div>        
+        </div>
+        <section id="todos">
+            <div class="todos-productos">
+            <div class="todos-productos_encabezado">
+                <h2 class="todos-productos_encabezadoTitulo">Todos los productos</h2>
+                <input type="button" class="todos-productos_encabezado-button" value="Agregar producto" onclick="agregarProduct()">
+            </div>
+            <div class="todos-producto_contain" id="todoProducto"></div>
+            </div>
+            
+        </section>
+        <section id="agregar">
+            <form class="agregarProducto" action="">
+                <h2 class="agregarProducto_titulo">Agregar nuevo producto</h2>
+                <div class="agregarProducto_input" >
+                    <label for="image">URL de imagen</label>
+                    <input id="image" type="text" placeholder="data:image/alura.png">
+                </div>
+                <div class="agregarProducto_input">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" id="categoria" placeholder="Consolas">
+                </div>
+                <div class="agregarProducto_input">
+                    <label for="name">Nombre del producto</label>
+                    <input type="text" id="name" placeholder="producto XYZ" >
+                </div>
+                <div class="agregarProducto_input">
+                    <label for="price">Precio del producto</label>
+                    <input type="number" id="price" placeholder="6000">
+                </div>                
+                <textArea class="agregarProducto_descripcion"  placeholder="Descripcion del producto"></textArea>
+                <input class="agregarProducto_button" type="button" value="Agregar producto">
+            </form>
+           
+        </section>       
     </main>
     <footer class="rodapie">
         <section class="rodapie-informacion">
+            <div>
+
+            </div>
             <div class="rodapie-informacion-contain">
-                <div class="rodapie-informacion-contain_logo">
-                    <img class="logo_alura" src="img/Vector.png" alt="logo alura">
-                    <img src="img/AluraGeek (1).png" alt="">
-                    <img src="img/AluraGeek.png" alt="">
-                </div>
-                <div class="rodapie-informacion-contain_links">
-                    <a class="contain_links-a" href="">Quienes Somos</a>
-                    <a class="contain_links-a" href="">Politica de Privacidad</a>
-                    <a class="contain_links-a" href="">Programa de fidelidad</a>
-                    <a class="contain_links-a" href="">Nuestras Tiendas</a>
-                    <a class="contain_links-a" href="">Quiero ser Franquisiado</a>
-                    <a class="contain_links-a" href="">Anuncie Aqui</a>
+                <div class="rodapie-informacion-containColum">
+                    <div class="rodapie-informacion-contain_logo">
+                        <img class="logo_alura-rodapie" src="img/Vector.png" alt="logo alura">
+                            <div><img class="imageHeader-1" src="img/AluraGeek (1).png" alt=""></div>
+                            <div><img class="imageHeader-2" src="img/AluraGeek.png" alt=""></div>
+                    </div>
+                    <div class="rodapie-informacion-contain_links">
+                        <a class="contain_links-a" href="">Quienes Somos</a>
+                        <a class="contain_links-a" href="">Politica de Privacidad</a>
+                        <a class="contain_links-a" href="">Programa de fidelidad</a>
+                        <a class="contain_links-a" href="">Nuestras Tiendas</a>
+                        <a class="contain_links-a" href="">Quiero ser Franquisiado</a>
+                        <a class="contain_links-a" href="">Anuncie Aqui</a>
+                    </div>
                 </div>
                 <form class="rodapie-informacion-contain_contactForm" action="#">
                     <fieldset>
@@ -264,6 +145,10 @@
         </section>
         <section class="rodapie-footer">Desarrollado por eilleenmaria <br>2022</section>
     </footer>
+    <script src="js/index.js"></script>
+    <script src="js/bd.js"></script>
+    <script src="js/producto.js"></script>
+    <script src="js/todoproducto.js"></script>
     
 </body>
 </html>
